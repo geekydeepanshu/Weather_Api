@@ -1,0 +1,105 @@
+:root{
+    --search-box-color:#555;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.bodyWrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 25px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.searchContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchContainer>input{
+    height:50px;
+    border-radius: 30px;
+    outline:0;
+    border:0;
+    background: #ebfffc;
+    color:var(--search-box-color);
+    padding: 10px 25px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.searchContainer>button{
+    border: 0;
+    outline:0;
+    background: #ebfffc;
+    border-radius:50%;
+    height: 50px;
+    width:50px;
+    cursor:pointer;
+}
+.search>button>img{
+    margin-top: 8px;
+    width:18px;
+}
+.weatherData{
+    display: none;
+}
+.weatherIcon>img{
+    width: 150px;
+    margin-top: 10px;
+}
+.tempratureDataContainer{
+    font-size:30px;
+    font-weight: 500;
+}
+.locationContainer{
+    font-size:35px;
+    font-weight: 400;
+}
+.weatherDetailsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 20px;
+}
+.col>img{
+    height:30px;
+}
+.humidityData, .windSpeedData{
+    font-size: 26px;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -7px;
+    align-self: center;
+    font-weight: 300;
+}
+.humidity{
+    margin-left: 12px;
+}
+.windSpeed{
+    margin-right: 12px;
+}
+.col{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+.weatherParameter{
+    font-weight: 400;
+}
