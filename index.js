@@ -7,7 +7,7 @@ const locationData = document.querySelector("#locationData");
 const humidityData = document.querySelector("#humidityData");
 const windSpeedData = document.querySelector("#windSpeedData");
 
-const apiKey = "27ec3c955023f7c067e6fcfde410be41";
+const apiKey = "";
 
 
 
